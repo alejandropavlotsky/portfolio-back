@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Viajes El Corte Inglés",
+    "description": "Responsable del desarrollo y mantenimiento de los módulos y componentes de la plataforma web.",
+    "url": "https://www.viajeselcorteingles.es",
+    "id": 1
+  },
+  {
+    "name": "Peninsula Wine",
+    "description": "Desarrollo de una tienda online para Peninsula Wine.",
+    "url": "https://www.peninsula.wine/",
+    "id": 2
+  },
+  {
+    "name": "Excelia",
+    "description": "Desarrollo frontend para la empresa Excelia.",
+    "url": "https://excelia.com",
+    "id": 3
+  },
+  {
+    "name": "Technolovegy",
+    "description": "Desarrollo frontend para la empresa Technolovegy",
+    "url": "https://technolovegy.es/tienda/",
+    "id": 4
+  },
+  {
+    "name": "Grupo Ricardo Sanz",
+    "description": "Desarrollo frontend para el Grupo Ricardo Sanz",
+    "url": "https://www.gruporicardosanz.com",
+    "id": 5
+  },
+  {
+    "name": "Destino de Bellza",
+    "description": "Desarrollo frontend para la empresa Destino de Belleza",
+    "url": "https://www.destinodebelleza.es",
+    "id": 6
+  },
+  {
+    "name": "LG",
+    "description": "Calculadora energética para la empresa LG",
+    "url": "https://www.lg.com/es/smartgreen/eficiencia-energetica-en-el-hogar/",
+    "id": 7
+  }
+]
