@@ -1,43 +1,43 @@
 [
   {
     "name": "Viajes El Corte Inglés",
-    "description": "Responsable del desarrollo y mantenimiento de los módulos y componentes de la plataforma web.",
+    "description": "Responsable del desarrollo y mantenimiento de los módulos y componentes de la plataforma web de viajes de El Corte Inglés. Este rol incluye la implementación y gestión de Google Tag Manager para optimizar el seguimiento y análisis del rendimiento del sitio web.",
     "url": "https://www.viajeselcorteingles.es",
     "id": 1
   },
   {
     "name": "Peninsula Wine",
-    "description": "Desarrollo de una tienda online para Peninsula Wine.",
+    "description": "Responsable del desarrollo y mantenimiento del sitio web de la marca de vinos Peninsula Wine. Implementar y desarrollar módulos personalizados basados en los diseños UX/UI, empleando HTML, CSS, SASS para la estructura y el diseño visual, y JavaScript.",
     "url": "https://www.peninsula.wine/",
     "id": 2
   },
   {
     "name": "Excelia",
-    "description": "Desarrollo frontend para la empresa Excelia.",
+    "description": "Desarrollador responsable de la implementación de los componentes del sitio corporativo de Excelia. Maquetar las páginas utilizando HTML, CSS/SASS, y agregar funcionalidades interactivas mediante JavaScript y jQuery para mejorar la experiencia del usuario en la navegación y la interacción con contenidos. También integras las soluciones de back-end en PHP para gestionar el contenido dinámico del sitio, como actualizaciones de noticias o secciones sobre los servicios.",
     "url": "https://excelia.com",
     "id": 3
   },
   {
     "name": "Technolovegy",
-    "description": "Desarrollo frontend para la empresa Technolovegy",
+    "description": "Responsable del desarrollo y mantenimiento de la landing informativa de Techno Lovegy, usando HTML, CSS/SASS, y JavaScript para interactividad.",
     "url": "https://technolovegy.es/tienda/",
     "id": 4
   },
   {
     "name": "Grupo Ricardo Sanz",
-    "description": "Desarrollo frontend para el Grupo Ricardo Sanz",
+    "description": "Responsable del desarrollo y mantenimiento de las páginas del Grupo Ricardo Sanz, un sitio web centrado en la gastronomía. Implementación de los módulos que permiten una presentación visual atractiva de los restaurantes, menús y reservas, utilizando HTML, CSS/SASS para la maquetación y JavaScript para las funcionalidades interactivas como galerías o menús desplegables.",
     "url": "https://www.gruporicardosanz.com",
     "id": 5
   },
   {
     "name": "Destino de Bellza",
-    "description": "Desarrollo frontend para la empresa Destino de Belleza",
+    "description": "Encargado del desarrollo del sitio web de Destino de Belleza, enfocado en la venta y promoción de productos de belleza. Desarrollo e implementación de los componentes, utilizando HTML, CSS/SASS, y JavaScript para crear una interfaz de usuario intuitiva y visualmente atractiva. Integración con el sistema de inventario y gestión de pedidos mediante PHP, garantizando un proceso de compra fluido.",
     "url": "https://www.destinodebelleza.es",
     "id": 6
   },
   {
     "name": "LG",
-    "description": "Calculadora energética para la empresa LG",
+    "description": "Encargado del desarrollo de la herramienta interactiva de la Calculadora Energética dentro de la plataforma LG Smart Green, dedicada a la eficiencia energética. Implementación de componentes interactivos en HTML, CSS/SASS, y JavaScript, permitiendo a los usuarios calcular su consumo energético en tiempo real.",
     "url": "https://www.lg.com/es/smartgreen/eficiencia-energetica-en-el-hogar/",
     "id": 7
   }
