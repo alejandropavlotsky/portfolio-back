@@ -10,7 +10,8 @@ const port = process.env.PORT || 3001
 const projects = require('./projects.json');
 
 app.get('/', (request, response) => {
-  response.sendFile(path.join(__dirname, 'dist/index.html'));
+  console.log(path.join(__dirname, 'dist', 'index.html'));
+  response.sendFile(path.join(__dirname, 'dist', '/index.html'));
 })
 app.get('/api/projects', (req, res) => {
   res.json(projects);
