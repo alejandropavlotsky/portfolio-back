@@ -15,6 +15,11 @@ app.get('/', (req, res) => {
 app.get('/api/projects', (req, res) => {
   res.json(projects);
 });
+const unknownEndpoint = (request, response) => {
+  response.status(404).send({ error: 'unknown endpoint' })
+}
+
+app.use(unknownEndpoint)
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
