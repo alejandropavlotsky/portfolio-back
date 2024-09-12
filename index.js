@@ -6,7 +6,7 @@ const path = require('path');
 app.use(helmet());
 app.use(cors())
 app.use(express.json())
-app.use(express.static('dist'))
+app.use(express.static(path.join(__dirname, 'dist')));
 const port = process.env.PORT || 3001
 
 app.use(helmet.contentSecurityPolicy({
@@ -21,8 +21,7 @@ app.use(helmet.contentSecurityPolicy({
 const projects = require('./projects.json');
 
 app.get('/', (request, response) => {
-  console.log(path.join(__dirname, 'dist', 'index.html'));
-  response.sendFile(path.join(__dirname, 'dist', '/index.html'));
+  response.sendFile(path.join(__dirname, '/index.html'));
 })
 app.get('/api/projects', (req, res) => {
   res.json(projects);
