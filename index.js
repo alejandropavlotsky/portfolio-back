@@ -1,11 +1,22 @@
 const express = require('express');
 const cors = require('cors')
+const helmet = require('helmet');
 const app = express();
 const path = require('path');
+app.use(helmet());
 app.use(cors())
 app.use(express.json())
 app.use(express.static('dist'))
 const port = process.env.PORT || 3001
+
+app.use(helmet.contentSecurityPolicy({
+  directives: {
+    defaultSrc: ["'self'"],
+    scriptSrc: ["'self'", "'unsafe-inline'"],
+    imgSrc: ["'self'", "data:", "https:"],
+  }
+}));
+
 
 const projects = require('./projects.json');
 
