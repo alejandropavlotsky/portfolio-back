@@ -9,8 +9,8 @@ const port = 3001;
 
 const projects = require('./projects.json');
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
+app.get('/', (request, response) => {
+  response.send('<h1>Hello World!</h1>')
 })
 app.get('/api/projects', (req, res) => {
   res.json(projects);
