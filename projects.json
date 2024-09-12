@@ -1,43 +1,64 @@
 [
   {
     "name": "Viajes El Corte Inglés",
-    "description": "Responsable del desarrollo y mantenimiento de los módulos y componentes de la plataforma web de viajes de El Corte Inglés. Este rol incluye la implementación y gestión de Google Tag Manager para optimizar el seguimiento y análisis del rendimiento del sitio web.",
+    "description": {
+      "es":"Responsable del desarrollo y mantenimiento de los módulos y componentes de la plataforma web de viajes de El Corte Inglés. Este rol incluye la implementación y gestión de Google Tag Manager para optimizar el seguimiento y análisis del rendimiento del sitio web.",
+      "en": "Responsible for the development and maintenance of the modules and components of El Corte Inglés' travel web platform. This role includes the implementation and management of Google Tag Manager to optimize tracking and analysis of website performance."
+    },
     "url": "https://www.viajeselcorteingles.es",
     "id": 1
   },
   {
     "name": "Peninsula Wine",
-    "description": "Responsable del desarrollo y mantenimiento del sitio web de la marca de vinos Peninsula Wine. Implementar y desarrollar módulos personalizados basados en los diseños UX/UI, empleando HTML, CSS, SASS para la estructura y el diseño visual, y JavaScript.",
+    "description": {
+      "es": "Responsable del desarrollo y mantenimiento del sitio web de la marca de vinos Peninsula Wine. Implementar y desarrollar módulos personalizados basados en los diseños UX/UI, empleando HTML, CSS, SASS para la estructura y el diseño visual, y JavaScript.",
+      "en": "Responsible for the development and maintenance of the Peninsula Wine website. Implement and develop custom modules based on UX/UI designs, using HTML, CSS, SASS for structure and visual design, and JavaScript."
+    },
     "url": "https://www.peninsula.wine/",
     "id": 2
   },
   {
     "name": "Excelia",
-    "description": "Desarrollador responsable de la implementación de los componentes del sitio corporativo de Excelia. Maquetar las páginas utilizando HTML, CSS/SASS, y agregar funcionalidades interactivas mediante JavaScript y jQuery para mejorar la experiencia del usuario en la navegación y la interacción con contenidos. También integras las soluciones de back-end en PHP para gestionar el contenido dinámico del sitio, como actualizaciones de noticias o secciones sobre los servicios.",
+    "description": {
+      "es": "Desarrollador responsable de la implementación de los componentes del sitio corporativo de Excelia. Maquetar las páginas utilizando HTML, CSS/SASS, y agregar funcionalidades interactivas mediante JavaScript y jQuery para mejorar la experiencia del usuario en la navegación y la interacción con contenidos. También integras las soluciones de back-end en PHP para gestionar el contenido dinámico del sitio, como actualizaciones de noticias o secciones sobre los servicios.",
+      "en": "Developer responsible for implementing the components of Excelia's corporate website. Design pages using HTML, CSS/SASS, and add interactive features using JavaScript and jQuery to improve user experience in navigation and interaction with content. Also integrate back-end solutions in PHP to manage dynamic content such as news updates or sections on services."
+    },
     "url": "https://excelia.com",
     "id": 3
   },
   {
     "name": "Technolovegy",
-    "description": "Responsable del desarrollo y mantenimiento de la landing informativa de Techno Lovegy, usando HTML, CSS/SASS, y JavaScript para interactividad.",
+    "description": {
+      "es": "Responsable del desarrollo y mantenimiento de la landing informativa de Techno Lovegy, usando HTML, CSS/SASS, y JavaScript para interactividad.",
+      "en": "Responsible for the development and maintenance of Techno Lovegy's informative landing page, using HTML, CSS/SASS, and JavaScript for interactivity."
+    },
     "url": "https://technolovegy.es/tienda/",
     "id": 4
   },
   {
     "name": "Grupo Ricardo Sanz",
-    "description": "Responsable del desarrollo y mantenimiento de las páginas del Grupo Ricardo Sanz, un sitio web centrado en la gastronomía. Implementación de los módulos que permiten una presentación visual atractiva de los restaurantes, menús y reservas, utilizando HTML, CSS/SASS para la maquetación y JavaScript para las funcionalidades interactivas como galerías o menús desplegables.",
+    "description": {
+      "es": "Responsable del desarrollo y mantenimiento de las páginas del Grupo Ricardo Sanz, un sitio web centrado en la gastronomía. Implementación de los módulos que permiten una presentación visual atractiva de los restaurantes, menús y reservas, utilizando HTML, CSS/SASS para la maquetación y JavaScript para las funcionalidades interactivas como galerías o menús desplegables.",
+      "en": "Responsible for the development and maintenance of the pages of the Ricardo Sanz Group, a website focused on gastronomy. Implementation of the modules that allow an attractive visual presentation of the restaurants, menus and reservations, using HTML, CSS/SASS for the layout and JavaScript for the interactive functionalities such as galleries or drop-down menus."
+    },
     "url": "https://www.gruporicardosanz.com",
     "id": 5
   },
   {
     "name": "Destino de Bellza",
-    "description": "Encargado del desarrollo del sitio web de Destino de Belleza, enfocado en la venta y promoción de productos de belleza. Desarrollo e implementación de los componentes, utilizando HTML, CSS/SASS, y JavaScript para crear una interfaz de usuario intuitiva y visualmente atractiva. Integración con el sistema de inventario y gestión de pedidos mediante PHP, garantizando un proceso de compra fluido.",
+    "description": {
+      "es":"Encargado del desarrollo del sitio web de Destino de Belleza, enfocado en la venta y promoción de productos de belleza. Desarrollo e implementación de los componentes, utilizando HTML, CSS/SASS, y JavaScript para crear una interfaz de usuario intuitiva y visualmente atractiva. Integración con el sistema de inventario y gestión de pedidos mediante PHP, garantizando un proceso de compra fluido.",
+      "en": "Responsible for the development of the Destino de Belleza website, focused on the sale and promotion of beauty products. Development and implementation of the components, using HTML, CSS/SASS, and JavaScript to create an intuitive and visually attractive user interface. Integration with the inventory management and order management system through PHP, ensuring a smooth purchase process."
+    },
     "url": "https://www.destinodebelleza.es",
     "id": 6
   },
   {
     "name": "LG",
-    "description": "Encargado del desarrollo de la herramienta interactiva de la Calculadora Energética dentro de la plataforma LG Smart Green, dedicada a la eficiencia energética. Implementación de componentes interactivos en HTML, CSS/SASS, y JavaScript, permitiendo a los usuarios calcular su consumo energético en tiempo real.",
+    "description":{
+      "es": "Encargado del desarrollo de la herramienta interactiva de la Calculadora Energética dentro de la plataforma LG Smart Green, dedicada a la eficiencia energética. Implementación de componentes interactivos en HTML, CSS/SASS, y JavaScript, permitiendo a los usuarios calcular su consumo energético en tiempo real.",
+      "en": "Responsible for the development of the interactive tool of the Energy Calculator within the LG Smart Green platform, dedicated to energy efficiency. Implementation of interactive components in HTML, CSS/SASS, and JavaScript, allowing users to calculate their energy consumption in real-time."
+    },
     "url": "https://www.lg.com/es/smartgreen/eficiencia-energetica-en-el-hogar/",
     "id": 7
   }
