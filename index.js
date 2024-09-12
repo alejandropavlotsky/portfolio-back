@@ -1,40 +1,27 @@
 const express = require('express');
-const cors = require('cors')
-const helmet = require('helmet');
+const cors = require('cors');
 const app = express();
-const path = require('path');
 app.use(cors())
 app.use(express.json())
-app.use(express.static(path.join(__dirname, 'dist')));
-const port = process.env.PORT || 3001
 
-app.use(helmet.contentSecurityPolicy({
-  directives: {
-    defaultSrc: ["'self'"],
-    scriptSrc: ["'self'", "'unsafe-inline'"],
-    imgSrc: ["'self'", "https:", "data:"],
-    styleSrc: ["'self'", "'unsafe-inline'"],
-    fontSrc: ["'self'", "https:"],
-    objectSrc: ["'none'"],
-    connectSrc: ["'self'", "https:"], 
-  }
-}));
-
+app.use(express.static('dist'))
 
 const projects = require('./projects.json');
 
 app.get('/', (request, response) => {
-  response.sendFile(path.join(__dirname, 'dist', 'index.html'));
+  response.sendFile(__dirname + '/index.html');
 })
-app.get('/api/projects', (req, res) => {
-  res.json(projects);
+
+app.get('/api/projects', (request, response) => {
+  response.json(projects);
 });
 const unknownEndpoint = (request, response) => {
   response.status(404).send({ error: 'unknown endpoint' })
 }
 
-app.use(unknownEndpoint)
+app.use(unknownEndpoint);
 
+const port = 3001;
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 })
