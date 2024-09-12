@@ -3,7 +3,6 @@ const cors = require('cors')
 const helmet = require('helmet');
 const app = express();
 const path = require('path');
-app.use(helmet());
 app.use(cors())
 app.use(express.json())
 app.use(express.static(path.join(__dirname, 'dist')));
@@ -13,7 +12,11 @@ app.use(helmet.contentSecurityPolicy({
   directives: {
     defaultSrc: ["'self'"],
     scriptSrc: ["'self'", "'unsafe-inline'"],
-    imgSrc: ["'self'", "data:", "https:"],
+    imgSrc: ["'self'", "https:", "data:"],
+    styleSrc: ["'self'", "'unsafe-inline'"],
+    fontSrc: ["'self'", "https:"],
+    objectSrc: ["'none'"],
+    connectSrc: ["'self'", "https:"], 
   }
 }));
 
@@ -21,7 +24,7 @@ app.use(helmet.contentSecurityPolicy({
 const projects = require('./projects.json');
 
 app.get('/', (request, response) => {
-  response.sendFile(path.join(__dirname, '/index.html'));
+  response.sendFile(path.join(__dirname, 'dist', 'index.html'));
 })
 app.get('/api/projects', (req, res) => {
   res.json(projects);
