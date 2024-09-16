@@ -70,5 +70,14 @@
     },
     "url": "https://www.lg.com/es/smartgreen/eficiencia-energetica-en-el-hogar/",
     "id": 8
+  },
+  {
+    "name": "El Rancho de Ávila",
+    "description":{
+      "es": "Desarrollo de la página informativa del Rancho de Ávila usando CSS, HTML, Javascript y PHP",
+      "en": "Development of the Rancho de Avila information page using CSS, HTML, Javascript and PHP."
+    },
+    "url": "https://www.elranchoavila.es/",
+    "id": 9
   }
 ]
