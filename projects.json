@@ -54,12 +54,21 @@
     "id": 6
   },
   {
-    "name": "LG",
+    "name": "LG comparador de barras de sonido",
+    "description": {
+      "es": "Desarrollador responsable de la herramienta interactiva de comparación de productos de sonido de LG, permitiendo a los usuarios comparar características y especificaciones de diferentes modelos de altavoces y sistemas de sonido correspondientes a cada televisor. Implementación de componentes interactivos en HTML, CSS/SASS, JavaScript y jQuery.",
+      "en": "Developer responsible for LG's interactive sound product comparison tool, allowing users to compare features and specifications of different models of speakers and sound systems corresponding to each TV. Implemented interactive components in HTML, CSS/SASS, JavaScript and jQuery."
+    },
+    "url": "https://www.lg.com/es/comparador-barras-sonido/",
+    "id": 7
+  }
+  {
+    "name": "LG comparador de ahorro energético",
     "description":{
       "es": "Encargado del desarrollo de la herramienta interactiva de la Calculadora Energética dentro de la plataforma LG Smart Green, dedicada a la eficiencia energética. Implementación de componentes interactivos en HTML, CSS/SASS, y JavaScript, permitiendo a los usuarios calcular su consumo energético en tiempo real.",
       "en": "Responsible for the development of the interactive tool of the Energy Calculator within the LG Smart Green platform, dedicated to energy efficiency. Implementation of interactive components in HTML, CSS/SASS, and JavaScript, allowing users to calculate their energy consumption in real-time."
     },
     "url": "https://www.lg.com/es/smartgreen/eficiencia-energetica-en-el-hogar/",
-    "id": 7
+    "id": 8
   }
 ]
